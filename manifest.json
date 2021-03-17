@@ -1,0 +1,14 @@
+{
+    "manifest_version" : 2,
+    "name" : "Bookmark Collections",
+    "description" : "Manage your bookmarks more efficiently!",
+    "version" : "1.0",
+    "browser_action" : {
+        "default_title" : "Bookmark Collections",
+        "default_popup" : "popup.html"
+    },
+    "permissions" : ["tabs", "<all_urls>"],   
+    "background" : {
+        "scripts" : ["popup.js"]
+    }
+}
